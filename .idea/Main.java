@@ -71,9 +71,7 @@ public class Main
                     "addition, subtraction, multiplication or division");
         }
 
-
-
-        
+        in.close();
 
     }
 }

@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-class Main
+public class Main
 {
     public static void main(String args[])
     {
         //Creating scanner object
         Scanner in = new Scanner(System.in);
-        Operations o = new operations();
+        Operations o = new Operations();
 
         //Declaring input variable
         double num1, num2, ans;
@@ -51,7 +51,7 @@ class Main
             System.out.println("Enter your second number: ");
             num2 = in.nextDouble();
 
-            o.multiplication(num1, num2)
+            o.multiplication(num1, num2);
         }
         else if(usrOperation.equals("division"))
         {
@@ -63,7 +63,7 @@ class Main
             System.out.println("Enter your second number: ");
             num2 = in.nextDouble();
 
-            o.division(num1, num2)
+            o.division(num1, num2);
         }
         else
         {
@@ -71,19 +71,9 @@ class Main
                     "addition, subtraction, multiplication or division");
         }
 
-//        //input num1
-//        System.out.println("Enter your first number: ");
-//        num1 = in.nextDouble();
-//
-//        //input num2
-//        System.out.println("Enter your second number: ");
-//        num2 = in.nextDouble();
-
-//        System.out.println();
 
 
-
-
+        
 
     }
 }
